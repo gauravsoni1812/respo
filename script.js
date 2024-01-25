@@ -37,7 +37,7 @@ gsap.to(".header .letters:first-child", {
   scrollTrigger: {
     start: "top top",
     end: "+=200%",
-    scrub: 1,
+    scrub: 2,
   },
 });
 
@@ -48,7 +48,7 @@ gsap.to(".header .letters:last-child", {
   scrollTrigger: {
     start: "top top",
     end: "+=200%",
-    scrub: 3,
+    scrub: 2,
   },
 });
 
@@ -59,7 +59,7 @@ gsap.to(".img-holder", {
   scrollTrigger: {
     start: "top top",
     end: "+=200%",
-    scrub: 3,
+    scrub: 2,
   },
 });
 
@@ -70,13 +70,13 @@ gsap.to(".img-holder img", {
   scrollTrigger: {
     start: "top top",
     end: "+=200%",
-    scrub: 3,
+    scrub: 2,
   },
 });
 
 gsap.timeline({
     scrollTrigger:{
-      scrub:3
+      scrub:2
     }
   }).to('.s1d1p2',{
       gap: "2000px",
@@ -84,7 +84,7 @@ gsap.timeline({
 })
 gsap.timeline({
     scrollTrigger:{
-      scrub:1
+      scrub:2
     }
   }).to('.s1d1p1',{
       scale:5
